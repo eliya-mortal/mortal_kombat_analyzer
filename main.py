@@ -2,7 +2,7 @@
 import asyncio
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
-from analyzer_core import run_analysis_all, send_daily_reports
+from analyzer_bot import run_analysis_all, send_daily_reports
 from handlers import (
     start,
     get_report,
