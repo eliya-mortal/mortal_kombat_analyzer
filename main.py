@@ -47,4 +47,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio app.run_polling()
+    asyncio.run(main())
+except RuntimeError
+    loop = asyncio.get.event_loop()
+    loop.run_until_complete(main())
