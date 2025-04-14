@@ -1,0 +1,7 @@
+python-telegram-bot==20.6
+requests
+pandas
+fpdf
+aiohttp
+beautifulsoup4
+schedule
